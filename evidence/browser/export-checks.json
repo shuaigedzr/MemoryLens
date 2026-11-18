@@ -1,0 +1,44 @@
+{
+  "operator": "Codex",
+  "kind": "inspection of actual downloaded browser JSON",
+  "exports": {
+    "D-export.json": {
+      "schema": 1,
+      "revision": 15,
+      "memoryIds": [
+        "env",
+        "dur"
+      ],
+      "eventActions": [
+        "load-fictional-demo",
+        "plan",
+        "correct",
+        "plan",
+        "remove",
+        "plan",
+        "undo"
+      ],
+      "undoPresent": false
+    },
+    "Final-D-export.json": {
+      "schema": 1,
+      "revision": 29,
+      "memoryIds": [
+        "dur"
+      ],
+      "eventActions": [
+        "load-fictional-demo",
+        "plan",
+        "correct",
+        "plan",
+        "remove",
+        "plan",
+        "undo",
+        "remove",
+        "clear-recovery"
+      ],
+      "undoPresent": false
+    }
+  },
+  "clearedRecoveryCheck": "passed"
+}

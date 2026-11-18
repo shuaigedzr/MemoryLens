@@ -1,0 +1,10 @@
+{
+  "applicationVersion": "1.0.1-local",
+  "versionIdentity": "Use the public Git commit linked by the privately delivered report",
+  "gitTag": "none",
+  "githubRelease": "none",
+  "browserAcceptance": "Actual Mac Chrome, 17 November 2026; fictional fixtures",
+  "browserRestart": "not established",
+  "publicationHistory": "Reviewed standalone snapshot; original private local history excluded",
+  "canvasSubmission": "not authorised"
+}

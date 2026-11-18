@@ -1,0 +1,154 @@
+Recorded at: 2026-11-18T00:28:04.342Z
+Node: v24.22.1
+Command: node --test --test-reporter=tap tests/engine.test.cjs
+Exit code: 0
+
+TAP version 13
+# Subtest: A: only relevant study records influence the plan; trace identifies excluded topic
+ok 1 - A: only relevant study records influence the plan; trace identifies excluded topic
+  ---
+  duration_ms: 4.74875
+  type: 'test'
+  ...
+# Subtest: Task change selects a different subset with explicit exclusion
+ok 2 - Task change selects a different subset with explicit exclusion
+  ---
+  duration_ms: 0.124958
+  type: 'test'
+  ...
+# Subtest: B: recent but wrong preference is correctable, source history retained, reload survives
+ok 3 - B: recent but wrong preference is correctable, source history retained, reload survives
+  ---
+  duration_ms: 0.356083
+  type: 'test'
+  ...
+# Subtest: Persistent undo restores corrected value and former source, not only visible text
+ok 4 - Persistent undo restores corrected value and former source, not only visible text
+  ---
+  duration_ms: 0.147375
+  type: 'test'
+  ...
+# Subtest: C: conflicting values block output even when one is newer
+ok 5 - C: conflicting values block output even when one is newer
+  ---
+  duration_ms: 0.139333
+  type: 'test'
+  ...
+# Subtest: Conflict correction supersedes other active value, regeneration and undo are coherent
+ok 6 - Conflict correction supersedes other active value, regeneration and undo are coherent
+  ---
+  duration_ms: 0.417917
+  type: 'test'
+  ...
+# Subtest: C: stale record requires review; confirmation leaves original timestamp honest
+ok 7 - C: stale record requires review; confirmation leaves original timestamp honest
+  ---
+  duration_ms: 0.117292
+  type: 'test'
+  ...
+# Subtest: C: missing source cannot be presented as current evidence
+ok 8 - C: missing source cannot be presented as current evidence
+  ---
+  duration_ms: 0.059167
+  type: 'test'
+  ...
+# Subtest: An inferred source also requires confirmation
+ok 9 - An inferred source also requires confirmation
+  ---
+  duration_ms: 0.048292
+  type: 'test'
+  ...
+# Subtest: Ignore is request-scoped, persists no changed preference, and gives a generic fallback
+ok 10 - Ignore is request-scoped, persists no changed preference, and gives a generic fallback
+  ---
+  duration_ms: 0.131
+  type: 'test'
+  ...
+# Subtest: Cancel records the action without changing memories
+ok 11 - Cancel records the action without changing memories
+  ---
+  duration_ms: 0.087125
+  type: 'test'
+  ...
+# Subtest: Removal excludes record, survives reload and remains recoverable until copy cleared
+ok 12 - Removal excludes record, survives reload and remains recoverable until copy cleared
+  ---
+  duration_ms: 0.189291
+  type: 'test'
+  ...
+# Subtest: Clear recovery removes every deleted source/content copy in app state; logs have no copies
+ok 13 - Clear recovery removes every deleted source/content copy in app state; logs have no copies
+  ---
+  duration_ms: 0.093917
+  type: 'test'
+  ...
+# Subtest: Adding absent preference is explicit; other topic is not superseded
+ok 14 - Adding absent preference is explicit; other topic is not superseded
+  ---
+  duration_ms: 0.107208
+  type: 'test'
+  ...
+# Subtest: Correcting an unrelated record cannot supersede study preferences
+ok 15 - Correcting an unrelated record cannot supersede study preferences
+  ---
+  duration_ms: 0.095916
+  type: 'test'
+  ...
+# Subtest: 30-day boundary is inclusive; future evidence is held
+ok 16 - 30-day boundary is inclusive; future evidence is held
+  ---
+  duration_ms: 0.036958
+  type: 'test'
+  ...
+# Subtest: Duplicate equal values use newest record; equal timestamps break by ID deterministically
+ok 17 - Duplicate equal values use newest record; equal timestamps break by ID deterministically
+  ---
+  duration_ms: 8.501708
+  type: 'test'
+  ...
+# Subtest: Invalid edit and unsupported task are refused without state writes
+ok 18 - Invalid edit and unsupported task are refused without state writes
+  ---
+  duration_ms: 0.116542
+  type: 'test'
+  ...
+# Subtest: Quota failure does not mutate state or claim persisted success
+ok 19 - Quota failure does not mutate state or claim persisted success
+  ---
+  duration_ms: 0.0915
+  type: 'test'
+  ...
+# Subtest: Storage read failure is explicit
+ok 20 - Storage read failure is explicit
+  ---
+  duration_ms: 0.045791
+  type: 'test'
+  ...
+# Subtest: Corrupt JSON, schema mismatch and malformed records are not overwritten on load
+ok 21 - Corrupt JSON, schema mismatch and malformed records are not overwritten on load
+  ---
+  duration_ms: 0.07375
+  type: 'test'
+  ...
+# Subtest: Two loaded tabs cannot overwrite each other, including a log-only write
+ok 22 - Two loaded tabs cannot overwrite each other, including a log-only write
+  ---
+  duration_ms: 0.168166
+  type: 'test'
+  ...
+# Subtest: Audit is bounded and contains IDs/statuses, not source excerpts or generated plans
+ok 23 - Audit is bounded and contains IDs/statuses, not source excerpts or generated plans
+  ---
+  duration_ms: 9.216083
+  type: 'test'
+  ...
+1..23
+# tests 23
+# suites 0
+# pass 23
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 61.578541
+

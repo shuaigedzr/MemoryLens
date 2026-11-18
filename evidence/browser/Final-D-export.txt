@@ -1,0 +1,70 @@
+Browser tab: 1848493436, Title: "MemoryLens · Explainable Study Assistant", URL: "http://127.0.0.1:8768/?review=20261117".
+1 AXWebArea MemoryLens · Explainable Study Assistant, URL: 127.0.0.1:8768/?review=20261117
+	2 link Description: Skip to workspace, Value: 127.0.0.1:8768/?review=20261117#main
+	3 container
+		4 text MemoryLens A clearer view of personal memory Local prototype · Rule-based
+	5 container main
+		6 container
+			7 text EXPLAINABLE STUDY ASSISTANT
+			8 heading Your plans. Your memory. Your say., Value: 1
+				9 text Your plans. Your memory.
+				10 text Your say.
+			11 text See what shaped a suggestion, check its source, and change what no longer fits.
+		12 container Fictional demo controls
+			13 text Try a fictional scenario
+			14 text C · Missing evidence
+			15 container
+				16 text Scenario
+				17 pop up button (collapsed, settable) Scenario, Value: C · Missing evidence, ID: fixture, Secondary Actions: Expand
+					18 menu
+						19 A · Explain
+						20 B · Correct
+						21 C · Conflict
+						22 C · Stale
+						23 (selected) C · Missing evidence
+			24 button Load demo, ID: load-demo
+			25 text Demo notes and sources are fictional. No model or external service runs.
+		68 text Export requested. The file contains source excerpts and any recovery copy; keep it private.
+		27 container
+			28 text 01
+			29 heading Make a study plan, Value: 2
+				30 text Make a study plan
+			31 text Choose a task. Only preferences needed for that task can be used.
+			32 container plan-form
+				33 container
+					34 text What would you like help with?
+					35 pop up button (collapsed, settable) What would you like help with?, Value: Study place and focus session, ID: task, Secondary Actions: Expand
+						36 menu
+							37 (selected) Study place and focus session
+							38 Study place only
+							39 Focus session only
+				40 button Suggest a plan, ID: generate
+			41 text Memory changed. Generate a plan using the saved state.
+		42 container
+			43 text 02
+			44 heading Your memory, Value: 2
+				45 text Your memory
+			46 text 1 active
+			47 text Saved in this browser. Edits apply to future suggestions.
+			48 container memory-dur
+				49 text dur · duration · study Stored claim
+				50 heading I prefer focus sessions of 25 minutes., Value: 3
+					51 text I prefer focus sessions of 25 minutes.
+				52 text Updated 15 Nov 2026, 22:19
+				53 button (collapsed) Source and history, Secondary Actions: Expand
+					54 text Source and history
+				55 button Correct dur
+				56 button Remove dur
+			57 button (disabled) Undo last memory change, ID: undo
+			58 button (disabled) Clear recovery copy, ID: clear-recovery
+			59 text No recovery copy held.
+		60 button (collapsed) Decision record · IDs and outcomes, without copied note text, Secondary Actions: Expand
+			61 text Decision record 
+			62 text · IDs and outcomes, without copied note text
+		63 container
+			64 text Small scope, visible limits.
+			65 text  Suggestions use a fixed task-to-preference rule and text templates. No live availability, learning assessment or LLM generation. Storage belongs to this browser and file or site address. Moving the app, private browsing or clearing site data can lose it. Keep an export if needed.
+			66 button Export saved data, ID: export
+			67 button Reload saved state, ID: reload
+
+The focused UI element is 66 button Export saved data, ID: export

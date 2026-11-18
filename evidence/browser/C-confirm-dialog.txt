@@ -1,0 +1,17 @@
+Browser tab: 1848493430, Title: "MemoryLens · Explainable Study Assistant", URL: "http://127.0.0.1:8768/".
+1 AXWebArea MemoryLens · Explainable Study Assistant, URL: 127.0.0.1:8768/
+	2 container edit-form
+		3 heading Confirm or correct environment, Value: 2, ID: edit-title
+			4 text Confirm or correct environment
+		5 text Choose what applies now. Saving will supersede 1 other active note(s) for this preference and update future plans. You can undo the last memory change.
+		6 container
+			7 text Current preference
+			8 pop up button (collapsed, settable) Current preference, Value: a collaborative space, ID: edit-value, Secondary Actions: Expand
+				9 menu
+					10 a quiet space
+					11 (selected) a collaborative space
+		12 text Saving records your explicit confirmation, keeps the earlier source for context, and replaces the previous undo slot.
+		13 button Cancel, ID: edit-cancel
+		14 button Save and regenerate
+
+The focused UI element is 8 pop up button (collapsed, settable) Current preference, Value: a collaborative space, ID: edit-value, Secondary Actions: Expand

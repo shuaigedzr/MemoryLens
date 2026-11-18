@@ -1,0 +1,112 @@
+Browser tab: 1848493436, Title: "MemoryLens · Explainable Study Assistant", URL: "http://127.0.0.1:8768/?review=20261117".
+1 AXWebArea MemoryLens · Explainable Study Assistant, URL: 127.0.0.1:8768/?review=20261117
+	2 link Description: Skip to workspace, Value: 127.0.0.1:8768/?review=20261117#main
+	3 container
+		4 text MemoryLens
+		145 text Local prototype · Rule-based
+	5 container main
+		6 container
+			7 text EXPLAINABLE STUDY ASSISTANT
+			8 heading Your plans. Your memory. Your say., Value: 1
+				9 text Your plans. Your memory.
+				10 text Your say.
+			11 text See what shaped a suggestion, check its source, and change what no longer fits.
+		12 container Fictional demo controls
+			13 text Try a fictional scenario
+			90 text A · Explain
+			15 container
+				16 text Scenario
+				17 pop up button (collapsed, settable) Scenario, Value: A · Explain, ID: fixture, Secondary Actions: Expand
+					18 menu
+						19 (selected) A · Explain
+						20 B · Correct
+						21 C · Conflict
+						22 C · Stale
+						23 C · Missing evidence
+			24 button Load demo, ID: load-demo
+			25 text Demo notes and sources are fictional. No model or external service runs.
+		91 text Plan generated from the current saved memory.
+		27 container
+			28 text 01
+			29 heading Make a study plan, Value: 2
+				30 text Make a study plan
+			31 text Choose a task. Only preferences needed for that task can be used.
+			32 container plan-form
+				33 container
+					34 text What would you like help with?
+					35 pop up button (collapsed, settable) What would you like help with?, Value: Focus session only, ID: task, Secondary Actions: Expand
+						36 menu
+							37 Study place and focus session
+							38 Study place only
+							39 (selected) Focus session only
+				40 button Suggest a plan, ID: generate
+			89 container result
+				92 text Plan ready · Template output
+				93 heading A starting point for your next session, Value: 3
+					94 text A starting point for your next session
+				95 content list
+					96 container
+						97 AXListMarker 1. 
+						98 text Work for 25 minutes, then pause and check what you understood.
+					99 container
+						100 AXListMarker 2. 
+						101 text Pick one course topic and finish by writing a short explanation in your own words.
+				102 text No live venue availability has been checked. Memory eligibility does not prove a preference is still true.
+				103 container
+					104 button (expanded) Why this plan?, Secondary Actions: Collapse
+						105 text Why this plan?
+					106 text I prefer focus sessions of 25 minutes. Selected task needs duration; study topic matches; latest matching record has a stated source and is within the 30-day review period. This checks eligibility, not whether the preference is true. Memory dur · Updated 15 Nov 2026, 22:19
+					107 button (collapsed) Show original source · dur, Secondary Actions: Expand
+						108 text Show original source · dur
+					109 button Change dur and update plan
+				141 container
+					142 button (expanded) Selection trace · 3 records, Secondary Actions: Collapse
+						143 text Selection trace · 3 records
+					144 text env · excluded This preference is not needed for the selected task. other · excluded Different topic: this request is about study. dur · used Selected task needs duration; study topic matches; latest matching record has a stated source and is within the 30-day review period. This checks eligibility, not whether the preference is true. Memory revision 30. Sources are information, never executable instructions.
+		42 container
+			43 text 02
+			44 heading Your memory, Value: 2
+				45 text Your memory
+			112 text 3 active
+			47 text Saved in this browser. Edits apply to future suggestions.
+			48 container memories
+				113 container memory-env
+					114 text env · environment · study Stored claim
+					115 heading I prefer a quiet space for study., Value: 3
+						116 text I prefer a quiet space for study.
+					117 text Updated 15 Nov 2026, 22:19
+					118 button (collapsed) Source and history, Secondary Actions: Expand
+						119 text Source and history
+					120 button Correct env
+					121 button Remove env
+				122 container memory-dur
+					123 text dur · duration · study Used in this plan
+					124 heading I prefer focus sessions of 25 minutes., Value: 3
+						125 text I prefer focus sessions of 25 minutes.
+					126 text Updated 15 Nov 2026, 22:19
+					127 button (collapsed) Source and history, Secondary Actions: Expand
+						128 text Source and history
+					129 button Correct dur
+					130 button Remove dur
+				131 container memory-other
+					132 text other · duration · other Stored claim
+					133 heading I prefer focus sessions of 45 minutes., Value: 3
+						134 text I prefer focus sessions of 45 minutes.
+					135 text Updated 15 Nov 2026, 22:19
+					136 button (collapsed) Source and history, Secondary Actions: Expand
+						137 text Source and history
+					138 button Correct other
+					139 button Remove other
+			76 button (disabled) Undo last memory change, ID: undo
+			77 button (disabled) Clear recovery copy, ID: clear-recovery
+			140 text No recovery copy held.
+		79 button (collapsed) Decision record · IDs and outcomes, without copied note text, Secondary Actions: Expand
+			80 text Decision record 
+			81 text · IDs and outcomes, without copied note text
+		82 container
+			83 text Small scope, visible limits.
+			84 text  Suggestions use a fixed task-to-preference rule and text templates. No live availability, learning assessment or LLM generation. Storage belongs to this browser and file or site address. Moving the app, private browsing or clearing site data can lose it. Keep an export if needed.
+			85 button Export saved data, ID: export
+			86 button Reload saved state, ID: reload
+
+The focused UI element is 142 button (expanded) Selection trace · 3 records, Secondary Actions: Collapse

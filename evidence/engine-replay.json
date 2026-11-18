@@ -1,0 +1,435 @@
+{
+  "generatedAt": "2026-11-17T22:30:31.911Z",
+  "clock": "2026-11-17T16:00:00.000Z",
+  "operator": "AI-assisted engine replay",
+  "adapter": "simulated Web Storage; not a live browser",
+  "scenarios": {
+    "A": {
+      "result": {
+        "decision": {
+          "task": "plan",
+          "revision": 1,
+          "selected": [
+            "env",
+            "dur"
+          ],
+          "issues": [],
+          "trace": [
+            {
+              "id": "other",
+              "outcome": "excluded",
+              "reason": "Different topic: this request is about study."
+            },
+            {
+              "id": "env",
+              "outcome": "used",
+              "reason": "Selected task needs environment; study topic matches; latest matching record has a stated source and is within the 30-day review period. This checks eligibility, not whether the preference is true."
+            },
+            {
+              "id": "dur",
+              "outcome": "used",
+              "reason": "Selected task needs duration; study topic matches; latest matching record has a stated source and is within the 30-day review period. This checks eligibility, not whether the preference is true."
+            }
+          ],
+          "ignored": [],
+          "at": "2026-11-17T16:00:00.000Z",
+          "status": "ready"
+        },
+        "plan": [
+          "Choose a quiet study space for individual revision.",
+          "Work for 25 minutes, then pause and check what you understood.",
+          "Pick one course topic and finish by writing a short explanation in your own words."
+        ]
+      },
+      "memories": [
+        {
+          "id": "env",
+          "kind": "environment",
+          "value": "quiet",
+          "topic": "study",
+          "status": "active",
+          "updatedAt": "2026-11-15T16:00:00.000Z",
+          "confirmedAt": null,
+          "sources": [
+            {
+              "label": "Fictional study check-in",
+              "quote": "I prefer a quiet space for study.",
+              "at": "2026-11-15T16:00:00.000Z",
+              "evidence": "stated"
+            }
+          ]
+        },
+        {
+          "id": "dur",
+          "kind": "duration",
+          "value": "25",
+          "topic": "study",
+          "status": "active",
+          "updatedAt": "2026-11-15T16:00:00.000Z",
+          "confirmedAt": null,
+          "sources": [
+            {
+              "label": "Fictional study check-in",
+              "quote": "I prefer focus sessions of 25 minutes.",
+              "at": "2026-11-15T16:00:00.000Z",
+              "evidence": "stated"
+            }
+          ]
+        },
+        {
+          "id": "other",
+          "kind": "duration",
+          "value": "45",
+          "topic": "other",
+          "status": "active",
+          "updatedAt": "2026-11-15T16:00:00.000Z",
+          "confirmedAt": null,
+          "sources": [
+            {
+              "label": "Fictional study check-in",
+              "quote": "I prefer focus sessions of 45 minutes.",
+              "at": "2026-11-15T16:00:00.000Z",
+              "evidence": "stated"
+            }
+          ]
+        }
+      ]
+    },
+    "B": {
+      "before": {
+        "decision": {
+          "task": "plan",
+          "revision": 1,
+          "selected": [
+            "env",
+            "dur"
+          ],
+          "issues": [],
+          "trace": [
+            {
+              "id": "env",
+              "outcome": "used",
+              "reason": "Selected task needs environment; study topic matches; latest matching record has a stated source and is within the 30-day review period. This checks eligibility, not whether the preference is true."
+            },
+            {
+              "id": "dur",
+              "outcome": "used",
+              "reason": "Selected task needs duration; study topic matches; latest matching record has a stated source and is within the 30-day review period. This checks eligibility, not whether the preference is true."
+            }
+          ],
+          "ignored": [],
+          "at": "2026-11-17T16:00:00.000Z",
+          "status": "ready"
+        },
+        "plan": [
+          "Choose a quiet study space for individual revision.",
+          "Work for 25 minutes, then pause and check what you understood.",
+          "Pick one course topic and finish by writing a short explanation in your own words."
+        ]
+      },
+      "correctedAfterReinstantiation": {
+        "decision": {
+          "task": "plan",
+          "revision": 2,
+          "selected": [
+            "env",
+            "dur"
+          ],
+          "issues": [],
+          "trace": [
+            {
+              "id": "env",
+              "outcome": "used",
+              "reason": "Selected task needs environment; study topic matches; latest matching record has a stated source and is within the 30-day review period. This checks eligibility, not whether the preference is true."
+            },
+            {
+              "id": "dur",
+              "outcome": "used",
+              "reason": "Selected task needs duration; study topic matches; latest matching record has a stated source and is within the 30-day review period. This checks eligibility, not whether the preference is true."
+            }
+          ],
+          "ignored": [],
+          "at": "2026-11-17T16:00:00.000Z",
+          "status": "ready"
+        },
+        "plan": [
+          "Choose a collaborative study space and discuss one topic with a peer.",
+          "Work for 25 minutes, then pause and check what you understood.",
+          "Pick one course topic and finish by writing a short explanation in your own words."
+        ]
+      },
+      "correctedSources": [
+        {
+          "label": "Fictional study check-in",
+          "quote": "I prefer a quiet space for study.",
+          "at": "2026-11-11T16:00:00.000Z",
+          "evidence": "stated"
+        },
+        {
+          "label": "Your explicit correction in MemoryLens",
+          "quote": "I prefer a collaborative space for study.",
+          "at": "2026-11-17T16:00:00.000Z",
+          "evidence": "stated"
+        }
+      ],
+      "afterUndo": {
+        "decision": {
+          "task": "plan",
+          "revision": 3,
+          "selected": [
+            "env",
+            "dur"
+          ],
+          "issues": [],
+          "trace": [
+            {
+              "id": "env",
+              "outcome": "used",
+              "reason": "Selected task needs environment; study topic matches; latest matching record has a stated source and is within the 30-day review period. This checks eligibility, not whether the preference is true."
+            },
+            {
+              "id": "dur",
+              "outcome": "used",
+              "reason": "Selected task needs duration; study topic matches; latest matching record has a stated source and is within the 30-day review period. This checks eligibility, not whether the preference is true."
+            }
+          ],
+          "ignored": [],
+          "at": "2026-11-17T16:00:00.000Z",
+          "status": "ready"
+        },
+        "plan": [
+          "Choose a quiet study space for individual revision.",
+          "Work for 25 minutes, then pause and check what you understood.",
+          "Pick one course topic and finish by writing a short explanation in your own words."
+        ]
+      }
+    },
+    "C": {
+      "blocked": {
+        "decision": {
+          "task": "plan",
+          "revision": 1,
+          "selected": [
+            "dur"
+          ],
+          "issues": [
+            {
+              "kind": "environment",
+              "code": "conflict",
+              "ids": [
+                "env2",
+                "env"
+              ],
+              "message": "Two active environment preferences disagree. I cannot choose which is current."
+            }
+          ],
+          "trace": [
+            {
+              "id": "env2",
+              "outcome": "held",
+              "reason": "Conflicting active values require your confirmation."
+            },
+            {
+              "id": "env",
+              "outcome": "held",
+              "reason": "Conflicting active values require your confirmation."
+            },
+            {
+              "id": "dur",
+              "outcome": "used",
+              "reason": "Selected task needs duration; study topic matches; latest matching record has a stated source and is within the 30-day review period. This checks eligibility, not whether the preference is true."
+            }
+          ],
+          "ignored": [],
+          "at": "2026-11-17T16:00:00.000Z",
+          "status": "needs-confirmation"
+        },
+        "plan": null
+      },
+      "ignored": {
+        "decision": {
+          "task": "plan",
+          "revision": 1,
+          "selected": [
+            "dur"
+          ],
+          "issues": [],
+          "trace": [
+            {
+              "id": "env",
+              "outcome": "excluded",
+              "reason": "Ignored for this request only, at your choice."
+            },
+            {
+              "id": "env2",
+              "outcome": "excluded",
+              "reason": "Ignored for this request only, at your choice."
+            },
+            {
+              "id": "dur",
+              "outcome": "used",
+              "reason": "Selected task needs duration; study topic matches; latest matching record has a stated source and is within the 30-day review period. This checks eligibility, not whether the preference is true."
+            }
+          ],
+          "ignored": [
+            "environment"
+          ],
+          "at": "2026-11-17T16:00:00.000Z",
+          "status": "ready"
+        },
+        "plan": [
+          "Choose a suitable study space yourself; no stored location preference was applied.",
+          "Work for 25 minutes, then pause and check what you understood.",
+          "Pick one course topic and finish by writing a short explanation in your own words."
+        ]
+      },
+      "newRequest": {
+        "decision": {
+          "task": "plan",
+          "revision": 1,
+          "selected": [
+            "dur"
+          ],
+          "issues": [
+            {
+              "kind": "environment",
+              "code": "conflict",
+              "ids": [
+                "env2",
+                "env"
+              ],
+              "message": "Two active environment preferences disagree. I cannot choose which is current."
+            }
+          ],
+          "trace": [
+            {
+              "id": "env2",
+              "outcome": "held",
+              "reason": "Conflicting active values require your confirmation."
+            },
+            {
+              "id": "env",
+              "outcome": "held",
+              "reason": "Conflicting active values require your confirmation."
+            },
+            {
+              "id": "dur",
+              "outcome": "used",
+              "reason": "Selected task needs duration; study topic matches; latest matching record has a stated source and is within the 30-day review period. This checks eligibility, not whether the preference is true."
+            }
+          ],
+          "ignored": [],
+          "at": "2026-11-17T16:00:00.000Z",
+          "status": "needs-confirmation"
+        },
+        "plan": null
+      },
+      "confirmed": {
+        "decision": {
+          "task": "plan",
+          "revision": 2,
+          "selected": [
+            "env",
+            "dur"
+          ],
+          "issues": [],
+          "trace": [
+            {
+              "id": "env2",
+              "outcome": "excluded",
+              "reason": "Superseded by an explicit correction."
+            },
+            {
+              "id": "env",
+              "outcome": "used",
+              "reason": "Selected task needs environment; study topic matches; latest matching record has a stated source and is within the 30-day review period. This checks eligibility, not whether the preference is true."
+            },
+            {
+              "id": "dur",
+              "outcome": "used",
+              "reason": "Selected task needs duration; study topic matches; latest matching record has a stated source and is within the 30-day review period. This checks eligibility, not whether the preference is true."
+            }
+          ],
+          "ignored": [],
+          "at": "2026-11-17T16:00:00.000Z",
+          "status": "ready"
+        },
+        "plan": [
+          "Choose a collaborative study space and discuss one topic with a peer.",
+          "Work for 25 minutes, then pause and check what you understood.",
+          "Pick one course topic and finish by writing a short explanation in your own words."
+        ]
+      }
+    },
+    "C · Stale": {
+      "decision": {
+        "task": "plan",
+        "revision": 1,
+        "selected": [
+          "dur"
+        ],
+        "issues": [
+          {
+            "code": "stale",
+            "message": "Last update or confirmation was 65 days ago; this demo asks again after 30 days.",
+            "kind": "environment",
+            "ids": [
+              "env"
+            ]
+          }
+        ],
+        "trace": [
+          {
+            "id": "env",
+            "outcome": "held",
+            "reason": "Last update or confirmation was 65 days ago; this demo asks again after 30 days."
+          },
+          {
+            "id": "dur",
+            "outcome": "used",
+            "reason": "Selected task needs duration; study topic matches; latest matching record has a stated source and is within the 30-day review period. This checks eligibility, not whether the preference is true."
+          }
+        ],
+        "ignored": [],
+        "at": "2026-11-17T16:00:00.000Z",
+        "status": "needs-confirmation"
+      },
+      "plan": null
+    },
+    "C · Missing evidence": {
+      "decision": {
+        "task": "plan",
+        "revision": 1,
+        "selected": [
+          "dur"
+        ],
+        "issues": [
+          {
+            "code": "evidence",
+            "message": "The current source is missing or inferred. Please confirm the preference.",
+            "kind": "environment",
+            "ids": [
+              "env"
+            ]
+          }
+        ],
+        "trace": [
+          {
+            "id": "env",
+            "outcome": "held",
+            "reason": "The current source is missing or inferred. Please confirm the preference."
+          },
+          {
+            "id": "dur",
+            "outcome": "used",
+            "reason": "Selected task needs duration; study topic matches; latest matching record has a stated source and is within the 30-day review period. This checks eligibility, not whether the preference is true."
+          }
+        ],
+        "ignored": [],
+        "at": "2026-11-17T16:00:00.000Z",
+        "status": "needs-confirmation"
+      },
+      "plan": null
+    }
+  }
+}

@@ -1,0 +1,115 @@
+Browser tab: 1848493430, Title: "MemoryLens · Explainable Study Assistant", URL: "http://127.0.0.1:8768/".
+1 AXWebArea MemoryLens · Explainable Study Assistant, URL: 127.0.0.1:8768/
+	2 link Description: Skip to workspace, Value: 127.0.0.1:8768/#main
+	3 container
+		4 text MemoryLens A clearer view of personal memory Local prototype · Rule-based
+	5 container main
+		6 container
+			7 text EXPLAINABLE STUDY ASSISTANT
+			8 heading Your plans. Your memory. Your say., Value: 1
+				9 text Your plans. Your memory.
+				10 text Your say.
+			11 text See what shaped a suggestion, check its source, and change what no longer fits.
+		12 container Fictional demo controls
+			13 text Try a fictional scenario
+			82 text B · Correct
+			15 container
+				16 text Scenario
+				17 pop up button (collapsed, settable) Scenario, Value: A · Explain, ID: fixture, Secondary Actions: Expand
+					18 menu
+						19 (selected) A · Explain
+						20 B · Correct
+						21 C · Conflict
+						22 C · Stale
+						23 C · Missing evidence
+			24 button Load demo, ID: load-demo
+			25 text Demo notes and sources are fictional. No model or external service runs.
+		83 text Plan generated from the current saved memory.
+		26 container
+			27 text 01
+			28 heading Make a study plan, Value: 2
+				29 text Make a study plan
+			30 text Choose a task. Only preferences needed for that task can be used.
+			31 container plan-form
+				32 container
+					33 text What would you like help with?
+					34 pop up button (collapsed, settable) What would you like help with?, Value: Study place and focus session, ID: task, Secondary Actions: Expand
+						35 menu
+							36 (selected) Study place and focus session
+							37 Study place only
+							38 Focus session only
+				39 button Suggest a plan, ID: generate
+			40 container result
+				84 text Plan ready · Template output
+				85 heading A starting point for your next session, Value: 3
+					86 text A starting point for your next session
+				87 content list
+					88 container
+						89 AXListMarker 1. 
+						90 text Choose a collaborative study space and discuss one topic with a peer.
+					91 container
+						92 AXListMarker 2. 
+						93 text Work for 25 minutes, then pause and check what you understood.
+					94 container
+						95 AXListMarker 3. 
+						96 text Pick one course topic and finish by writing a short explanation in your own words.
+				97 text No live venue availability has been checked. Memory eligibility does not prove a preference is still true.
+				98 container
+					99 button (expanded) Why this plan?, Secondary Actions: Collapse
+						100 text Why this plan?
+					101 text I prefer a collaborative space for study. Selected task needs environment; study topic matches; latest matching record has a stated source and is within the 30-day review period. This checks eligibility, not whether the preference is true. Memory env · Updated 17 Nov 2026, 22:13
+					102 button (expanded) Show original source · env, Secondary Actions: Collapse
+						103 text Show original source · env
+					133 text Current source · Your explicit correction in MemoryLens
+					134 text 17 Nov 2026, 22:13 · stated evidence
+					135 text I prefer a collaborative space for study.
+					136 text Earlier source · Fictional study check-in
+					137 text 11 Nov 2026, 22:13 · stated evidence
+					138 text I prefer a quiet space for study.
+					104 button Change env and update plan
+					105 text I prefer focus sessions of 25 minutes. Selected task needs duration; study topic matches; latest matching record has a stated source and is within the 30-day review period. This checks eligibility, not whether the preference is true. Memory dur · Updated 15 Nov 2026, 22:13
+					106 button (collapsed) Show original source · dur, Secondary Actions: Expand
+						107 text Show original source · dur
+					108 button Change dur and update plan
+				109 button (collapsed) Selection trace · 2 records, Secondary Actions: Expand
+					110 text Selection trace · 2 records
+		44 container
+			45 text 02
+			46 heading Your memory, Value: 2
+				47 text Your memory
+			111 text 2 active
+			49 text Saved in this browser. Edits apply to future suggestions.
+			50 container memories
+				112 container memory-env
+					113 text env · environment · study Used in this plan
+					114 heading I prefer a collaborative space for study., Value: 3
+						115 text I prefer a collaborative space for study.
+					116 container
+						117 text Updated 17 Nov 2026, 22:13
+						118 text Confirmed 17 Nov 2026, 22:13
+					119 button (collapsed) Source and history, Secondary Actions: Expand
+						120 text Source and history
+					121 button Correct env
+					122 button Remove env
+				123 container memory-dur
+					124 text dur · duration · study Used in this plan
+					125 heading I prefer focus sessions of 25 minutes., Value: 3
+						126 text I prefer focus sessions of 25 minutes.
+					127 text Updated 15 Nov 2026, 22:13
+					128 button (collapsed) Source and history, Secondary Actions: Expand
+						129 text Source and history
+					130 button Correct dur
+					131 button Remove dur
+			71 button Undo last memory change, ID: undo
+			72 button Clear recovery copy, ID: clear-recovery
+			132 text One recovery copy is held for “correct”. Removed notes cannot be used in plans. Clear this copy or make another memory change to discard it.
+		74 button (collapsed) Decision record · IDs and outcomes, without copied note text, Secondary Actions: Expand
+			75 text Decision record 
+			76 text · IDs and outcomes, without copied note text
+		77 container
+			78 text Small scope, visible limits.
+			79 text  Suggestions use a fixed task-to-preference rule and text templates. No live availability, learning assessment or LLM generation. Storage belongs to this browser and file or site address. Moving the app, private browsing or clearing site data can lose it. Keep an export if needed.
+			80 button Export saved data, ID: export
+			81 button Reload saved state, ID: reload
+
+The focused UI element is 102 button (expanded) Show original source · env, Secondary Actions: Collapse

@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-18",
+  "scope": "MemoryLens only",
+  "originalWorkingFilesInspected": 163,
+  "originalReachableObjectsInspected": 26,
+  "originalKnownCredentialMatches": 0,
+  "originalHistoryPublished": false,
+  "publicFilesInspected": 147,
+  "publicKnownCredentialMatches": 0,
+  "publicAcademicIdentifierMatches": 0,
+  "publicPrivateProjectNameMatches": 0,
+  "publicPersonalPathMatches": 0,
+  "imagesOcrChecked": 63,
+  "imageOcrSensitiveMatches": 0,
+  "imageContactSheetsVisuallyReviewed": 4,
+  "relativeMarkdownLinks": "all resolve",
+  "appAndTestFiles": "all five hashes match original tested implementation",
+  "excluded": [
+    "original Git history",
+    "academic identifier and identified report",
+    "assessment feedback and private source inventories",
+    "course PDFs and Canvas screenshots",
+    "other-project source",
+    "QA render intermediates"
+  ],
+  "limitations": "Pattern scanning, OCR and visual/manual inspection provide evidence, not a mathematical guarantee against every possible secret."
+}

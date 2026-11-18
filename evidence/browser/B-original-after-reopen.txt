@@ -1,0 +1,10 @@
+Browser tab: 1848493430, Title: "MemoryLens · Explainable Study Assistant", URL: "http://127.0.0.1:8768/".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+~					110 button (expanded) Show original source · env, Secondary Actions: Collapse
++					150 text Current source · Your explicit correction in MemoryLens
++					151 text 17 Nov 2026, 18:56 · stated evidence
++					152 text I prefer a collaborative space for study.
++					153 text Earlier source · Fictional study check-in
++					154 text 15 Nov 2026, 18:46 · stated evidence
++					155 text I prefer a quiet space for study.
+The focused UI element is 110 button (expanded) Show original source · env, Secondary Actions: Collapse

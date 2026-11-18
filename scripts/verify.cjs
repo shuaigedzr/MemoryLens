@@ -1,0 +1,12 @@
+const fs = require('node:fs'), cp = require('node:child_process'), crypto = require('node:crypto');
+const path = require('node:path');
+process.chdir(path.resolve(__dirname, '..'));
+fs.mkdirSync('evidence', { recursive: true });
+const command = [process.execPath, '--test', '--test-reporter=tap', 'tests/engine.test.cjs'];
+const r = cp.spawnSync(command[0], command.slice(1), { encoding: 'utf8' });
+const report = ['Recorded at: ' + new Date().toISOString(), 'Node: ' + process.version, 'Command: node --test --test-reporter=tap tests/engine.test.cjs', 'Exit code: ' + r.status, '', r.stdout, r.stderr || ''].join('\n');
+fs.writeFileSync('evidence/automated-tests.txt', report);
+const files = ['engine.js', 'app.js', 'index.html', 'styles.css', 'tests/engine.test.cjs'];
+const hashes = Object.fromEntries(files.map(f => [f, crypto.createHash('sha256').update(fs.readFileSync(f)).digest('hex')]));
+fs.writeFileSync('evidence/source-hashes.json', JSON.stringify({ at: new Date().toISOString(), hashes }, null, 2) + '\n');
+console.log(report); process.exitCode = r.status ?? 1;

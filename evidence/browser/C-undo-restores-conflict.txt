@@ -1,0 +1,106 @@
+Browser tab: 1848493430, Title: "MemoryLens · Explainable Study Assistant", URL: "http://127.0.0.1:8768/".
+1 AXWebArea MemoryLens · Explainable Study Assistant, URL: 127.0.0.1:8768/
+	2 link Description: Skip to workspace, Value: 127.0.0.1:8768/#main
+	3 container
+		4 text MemoryLens A clearer view of personal memory Local prototype · Rule-based
+	5 container main
+		6 container
+			7 text EXPLAINABLE STUDY ASSISTANT
+			8 heading Your plans. Your memory. Your say., Value: 1
+				9 text Your plans. Your memory.
+				10 text Your say.
+			11 text See what shaped a suggestion, check its source, and change what no longer fits.
+		12 container Fictional demo controls
+			13 text Try a fictional scenario
+			116 text C · Conflict
+			15 container
+				16 text Scenario
+				17 pop up button (collapsed, settable) Scenario, Value: C · Conflict, ID: fixture, Secondary Actions: Expand
+					18 menu
+						19 A · Explain
+						20 B · Correct
+						21 (selected) C · Conflict
+						22 C · Stale
+						23 C · Missing evidence
+			24 button Load demo, ID: load-demo
+			25 text Demo notes and sources are fictional. No model or external service runs.
+		117 text Last memory change undone and saved. The plan has been checked again.
+		27 container
+			28 text 01
+			29 heading Make a study plan, Value: 2
+				30 text Make a study plan
+			31 text Choose a task. Only preferences needed for that task can be used.
+			32 container plan-form
+				33 container
+					34 text What would you like help with?
+					35 pop up button (collapsed, settable) What would you like help with?, Value: Study place and focus session, ID: task, Secondary Actions: Expand
+						36 menu
+							37 (selected) Study place and focus session
+							38 Study place only
+							39 Focus session only
+				40 button Suggest a plan, ID: generate
+			41 container result
+				118 text Waiting for your choice
+				119 heading Check a note before I suggest a plan, Value: 3
+					120 text Check a note before I suggest a plan
+				121 text No personalised plan has been issued. Review the sources in Your memory.
+				122 container
+					123 heading environment · conflict, Value: 3
+						124 text environment · conflict
+					125 text Two active environment preferences disagree. I cannot choose which is current.
+					126 text env2:
+					127 text  I prefer a collaborative space for study.
+					128 text env:
+					129 text  I prefer a quiet space for study.
+					130 button Confirm or correct environment
+					131 button Ignore environment this time
+				132 button Cancel this request
+				133 button (collapsed) Selection trace · 3 records, Secondary Actions: Expand
+					134 text Selection trace · 3 records
+		69 container
+			70 text 02
+			71 heading Your memory, Value: 2
+				72 text Your memory
+			135 text 3 active
+			74 text Saved in this browser. Edits apply to future suggestions.
+			75 container memories
+				136 container memory-env
+					137 text env · environment · study Needs confirmation
+					138 heading I prefer a quiet space for study., Value: 3
+						139 text I prefer a quiet space for study.
+					140 text Updated 15 Nov 2026, 22:13
+					141 button (collapsed) Source and history, Secondary Actions: Expand
+						142 text Source and history
+					143 button Correct env
+					144 button Remove env
+				145 container memory-env2
+					146 text env2 · environment · study Needs confirmation
+					147 heading I prefer a collaborative space for study., Value: 3
+						148 text I prefer a collaborative space for study.
+					149 text Updated 16 Nov 2026, 22:13
+					150 button (collapsed) Source and history, Secondary Actions: Expand
+						151 text Source and history
+					152 button Correct env2
+					153 button Remove env2
+				154 container memory-dur
+					155 text dur · duration · study Stored claim
+					156 heading I prefer focus sessions of 25 minutes., Value: 3
+						157 text I prefer focus sessions of 25 minutes.
+					158 text Updated 15 Nov 2026, 22:13
+					159 button (collapsed) Source and history, Secondary Actions: Expand
+						160 text Source and history
+					161 button Correct dur
+					162 button Remove dur
+			105 button (disabled) Undo last memory change, ID: undo
+			106 button (disabled) Clear recovery copy, ID: clear-recovery
+			163 text No recovery copy held.
+		108 button (collapsed) Decision record · IDs and outcomes, without copied note text, Secondary Actions: Expand
+			109 text Decision record 
+			110 text · IDs and outcomes, without copied note text
+		111 container
+			112 text Small scope, visible limits.
+			113 text  Suggestions use a fixed task-to-preference rule and text templates. No live availability, learning assessment or LLM generation. Storage belongs to this browser and file or site address. Moving the app, private browsing or clearing site data can lose it. Keep an export if needed.
+			114 button Export saved data, ID: export
+			115 button Reload saved state, ID: reload
+
+The focused UI element is 1 AXWebArea MemoryLens · Explainable Study Assistant, URL: 127.0.0.1:8768/

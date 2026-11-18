@@ -1,0 +1,157 @@
+Browser tab: 1848493430, Title: "MemoryLens · Explainable Study Assistant", URL: "http://127.0.0.1:8768/".
+1 AXWebArea MemoryLens · Explainable Study Assistant, URL: 127.0.0.1:8768/
+	2 link Description: Skip to workspace, Value: 127.0.0.1:8768/#main
+	3 container
+		4 text MemoryLens
+		174 text Local prototype · Rule-based
+	5 container main
+		6 container
+			7 text EXPLAINABLE STUDY ASSISTANT
+			8 heading Your plans. Your memory. Your say., Value: 1
+				9 text Your plans. Your memory.
+				10 text Your say.
+			11 text See what shaped a suggestion, check its source, and change what no longer fits.
+		12 container Fictional demo controls
+			13 text Try a fictional scenario
+			70 text C · Missing evidence
+			15 container
+				16 text Scenario
+				17 pop up button (collapsed, settable) Scenario, Value: A · Explain, ID: fixture, Secondary Actions: Expand
+					18 menu
+						19 (selected) A · Explain
+						20 B · Correct
+						21 C · Conflict
+						22 C · Stale
+						23 C · Missing evidence
+			24 button Load demo, ID: load-demo
+			25 text Demo notes and sources are fictional. No model or external service runs.
+		173 text Export requested. The file contains source excerpts and any recovery copy; keep it private.
+		26 container
+			27 text 01
+			28 heading Make a study plan, Value: 2
+				29 text Make a study plan
+			30 text Choose a task. Only preferences needed for that task can be used.
+			31 container plan-form
+				32 container
+					33 text What would you like help with?
+					34 pop up button (collapsed, settable) What would you like help with?, Value: Study place and focus session, ID: task, Secondary Actions: Expand
+						35 menu
+							36 (selected) Study place and focus session
+							37 Study place only
+							38 Focus session only
+				39 button Suggest a plan, ID: generate
+			72 text Memory changed. Generate a plan using the saved state.
+		44 container
+			45 text 02
+			46 heading Your memory, Value: 2
+				47 text Your memory
+			73 text 2 active
+			49 text Saved in this browser. Edits apply to future suggestions.
+			74 container memories
+				75 container memory-env
+					76 text env · environment · study Stored claim
+					77 heading I prefer a quiet space for study., Value: 3
+						78 text I prefer a quiet space for study.
+					79 container
+						80 text Updated 17 Nov 2026, 22:15
+						81 text Confirmed 17 Nov 2026, 22:15
+					82 button (collapsed) Source and history, Secondary Actions: Expand
+						83 text Source and history
+					84 button Correct env
+					85 button Remove env
+				86 container memory-dur
+					87 text dur · duration · study Stored claim
+					88 heading I prefer focus sessions of 25 minutes., Value: 3
+						89 text I prefer focus sessions of 25 minutes.
+					90 text Updated 15 Nov 2026, 22:14
+					91 button (collapsed) Source and history, Secondary Actions: Expand
+						92 text Source and history
+					93 button Correct dur
+					94 button Remove dur
+			59 button (disabled) Undo last memory change, ID: undo
+			60 button (disabled) Clear recovery copy, ID: clear-recovery
+			95 text No recovery copy held.
+		96 container
+			97 button (expanded) Decision record · IDs and outcomes, without copied note text, Secondary Actions: Collapse
+				98 text Decision record 
+				99 text · IDs and outcomes, without copied note text
+			100 container activity
+				101 table
+					102 row
+						103 cell
+							104 text Step
+						105 cell
+							106 text Action
+						107 cell
+							108 text Outcome
+					109 row
+						110 cell
+							111 text 7
+							112 text 17 Nov 2026, 22:15
+						113 cell
+							114 text undo
+						115 cell
+							116 text Saved
+					117 row
+						118 cell
+							119 text 6
+							120 text 17 Nov 2026, 22:15
+						121 cell
+							122 text plan
+						123 cell
+							124 text needs-confirmation
+							125 text IDs: dur
+							126 text absent
+					127 row
+						128 cell
+							129 text 5
+							130 text 17 Nov 2026, 22:15
+						131 cell
+							132 text remove
+						133 cell
+							134 text Saved
+							135 text IDs: env
+					136 row
+						137 cell
+							138 text 4
+							139 text 17 Nov 2026, 22:15
+						140 cell
+							141 text plan
+						142 cell
+							143 text ready
+							144 text IDs: env, dur
+					145 row
+						146 cell
+							147 text 3
+							148 text 17 Nov 2026, 22:15
+						149 cell
+							150 text correct
+						151 cell
+							152 text environment
+							153 text IDs: env
+					154 row
+						155 cell
+							156 text 2
+							157 text 17 Nov 2026, 22:14
+						158 cell
+							159 text plan
+						160 cell
+							161 text needs-confirmation
+							162 text IDs: dur
+							163 text evidence
+					164 row
+						165 cell
+							166 text 1
+							167 text 17 Nov 2026, 22:14
+						168 cell
+							169 text load-fictional-demo
+						170 cell
+							171 text C · Missing evidence
+				172 text Latest 12 shown. Up to 100 content-free events are retained and included in exports.
+		65 container
+			66 text Small scope, visible limits.
+			67 text  Suggestions use a fixed task-to-preference rule and text templates. No live availability, learning assessment or LLM generation. Storage belongs to this browser and file or site address. Moving the app, private browsing or clearing site data can lose it. Keep an export if needed.
+			68 button Export saved data, ID: export
+			69 button Reload saved state, ID: reload
+
+The focused UI element is 68 button Export saved data, ID: export

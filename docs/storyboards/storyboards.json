@@ -1,0 +1,115 @@
+{
+  "status": "Implemented interaction, fictional data",
+  "source": "Actual Mac Chrome captures 17 November 2026",
+  "composition": "Unaltered content; pixel crop framing only",
+  "stories": [
+    {
+      "id": "A",
+      "title": "Inspect why a memory was used",
+      "frames": [
+        [
+          "Final-A-plan.jpg",
+          [
+            185,
+            690,
+            720,
+            1060
+          ],
+          "1 Choose the full study task and request a plan"
+        ],
+        [
+          "Final-A-source-trace.jpg",
+          [
+            185,
+            1090,
+            720,
+            1430
+          ],
+          "2 Open the used source and inspect its date"
+        ],
+        [
+          "Final-A-source-trace.jpg",
+          [
+            185,
+            1660,
+            720,
+            1770
+          ],
+          "3 Expand the trace to see the unrelated record excluded"
+        ]
+      ]
+    },
+    {
+      "id": "B",
+      "title": "Correct and retain a preference",
+      "frames": [
+        [
+          "B-before.jpg",
+          [
+            185,
+            830,
+            720,
+            1018
+          ],
+          "1 Request a plan using the quiet preference"
+        ],
+        [
+          "Final-B-persistence.jpg",
+          [
+            185,
+            830,
+            720,
+            1090
+          ],
+          "2 Correct to collaborative then refresh and request again"
+        ],
+        [
+          "Final-B-persistence.jpg",
+          [
+            185,
+            1240,
+            720,
+            1480
+          ],
+          "3 Open history to compare current and earlier statements"
+        ]
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Resolve uncertain memory use",
+      "frames": [
+        [
+          "Final-C-conflict.jpg",
+          [
+            185,
+            830,
+            720,
+            1195
+          ],
+          "1 Conflicting notes block a personalised plan"
+        ],
+        [
+          "Final-C-ignore.jpg",
+          [
+            185,
+            830,
+            720,
+            1110
+          ],
+          "2 Ignore environment once to receive a generic location"
+        ],
+        [
+          "Final-C-resolved.jpg",
+          [
+            185,
+            830,
+            720,
+            1020
+          ],
+          "3 Confirm collaborative and regenerate from the saved correction"
+        ]
+      ]
+    }
+  ]
+}
