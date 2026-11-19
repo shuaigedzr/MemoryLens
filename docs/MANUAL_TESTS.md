@@ -35,6 +35,6 @@ The final working tab was left with A's three fictional records, corrected colla
 
 The student personally checked Scenario C in Mac Chrome. The conflict held the personalised plan. Ignoring environment for one request produced generic location advice, kept the 25-minute duration and left the environment memories stored. On a new request the student confirmed collaborative and saved. The recommendation updated, and the interface displayed the confirmation time and Undo.
 
-ChatGPT recommended retaining both paths for user control, error recovery and clear consequences, with possible friction from repeated confirmation. The student’s design judgment is pending. The separate storyboard captures were operated by Codex.
+After this check, the student accepted the ChatGPT-assisted design for Scenario C. The [development record](DEVELOPMENT.md#19-november-2026-scenario-c-check) gives the student’s rationale and the confirmation trade-off. Codex captured the storyboards in a separate walkthrough.
 
 [Revised storyboards](storyboards/revision-2026-11-19/) include capture provenance.

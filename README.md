@@ -1,6 +1,6 @@
 # MemoryLens
 
-README prose word count: 589 (headings and link labels included; fenced setup code and this count line excluded).
+README prose word count: 581 (headings and link labels included; fenced setup code and this count line excluded).
 
 ## Status
 
@@ -48,7 +48,7 @@ Remove immediately excludes a record. One disclosed recovery snapshot supports u
 
 ## Development and AI assistance
 
-[Development record](docs/DEVELOPMENT.md) explains alternatives, the topic-isolation regression and browser-discovered feedback fixes. [AI disclosure](docs/AI_ASSISTANCE.md) separates the student's problem/scenarios and earlier manual checks from ChatGPT/Codex-assisted code, tests, writing and figures. Checks included reference verification, code review, engine tests, actual browser operations and exported state. In a separate 19 November Mac Chrome check, the student personally exercised the conflict, one-request ignore and saved confirmation paths in C. ChatGPT recommended retaining both paths, while noting the burden of repeated prompts. The student’s design judgment remains pending. The revised storyboard screenshots were captured by Codex.
+[Development record](docs/DEVELOPMENT.md) explains alternatives, the topic-isolation regression and browser-discovered feedback fixes. [AI disclosure](docs/AI_ASSISTANCE.md) records how ChatGPT helped propose and analyse the Scenario C design. After a separate 19 November Mac Chrome check, the student accepted keeping both one-time ignore and saved correction. The student distinguished temporary needs from ongoing preferences, endorsed asking when timestamps could not establish intent and recognised the cost of repeated confirmation. This is a student-reviewed and accepted AI-assisted design decision. Codex captured the revised storyboards in separate walkthroughs.
 
 ## Publication and accompanying material
 
