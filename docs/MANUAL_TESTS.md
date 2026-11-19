@@ -30,3 +30,11 @@ The initial 1.0.0-local application was exercised first. Feedback-only fixes pro
 Real page refresh and new-tab loading were observed; quitting/restarting Chrome was not tested. No screen-reader audit, participant trial or performance benchmark was conducted. Storage denial, quota failure, malformed data, future timestamps, inferred-source and near-simultaneous writes were tested in the engine adapter, not injected into the browser. The cross-tab observation establishes ordinary stale-tab locking, not transaction atomicity.
 
 The final working tab was left with A's three fictional records, corrected collaborative environment and full plan. Earlier open tabs can be stale after testing; use the kept final tab or reload saved state. Initial private QA backup is outside the repository. Fixture changes intentionally reset prior decision records.
+
+## 19 November 2026 Scenario C check
+
+The student personally checked Scenario C in Mac Chrome. The conflict held the personalised plan. Ignoring environment for one request produced generic location advice, kept the 25-minute duration and left the environment memories stored. On a new request the student confirmed collaborative and saved. The recommendation updated, and the interface displayed the confirmation time and Undo.
+
+ChatGPT recommended retaining both paths for user control, error recovery and clear consequences, with possible friction from repeated confirmation. The student’s design judgment is pending. The separate storyboard captures were operated by Codex.
+
+[Revised storyboards](storyboards/revision-2026-11-19/) include capture provenance.

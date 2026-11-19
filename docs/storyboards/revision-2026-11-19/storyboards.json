@@ -1,0 +1,197 @@
+[
+  {
+    "id": "A",
+    "title": "See which memory shaped the plan",
+    "provenance": "Final 1.0.1-local build · 17 November 2026 · Codex-operated Mac Chrome",
+    "frames": [
+      {
+        "caption": "Request a study place and focus session",
+        "source": "Final-A-plan.jpg",
+        "width": 5.35,
+        "crops": [
+          [
+            185,
+            693,
+            724,
+            1063
+          ]
+        ]
+      },
+      {
+        "caption": "Open the source of the selected quiet preference",
+        "source": "Final-A-source-trace.jpg",
+        "width": 5.35,
+        "crops": [
+          [
+            185,
+            1068,
+            724,
+            1420
+          ]
+        ]
+      },
+      {
+        "caption": "Compare the stored 45-minute note with its exclusion in the trace",
+        "source": "Final-A-source-trace.jpg",
+        "width": 3.21,
+        "crops": [
+          [
+            780,
+            1055,
+            1294,
+            1169
+          ],
+          [
+            185,
+            1652,
+            724,
+            1748
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "B",
+    "title": "Correct a preference that no longer fits",
+    "provenance": "Pinned public build · 19 November 2026 · Codex-operated Mac Chrome",
+    "frames": [
+      {
+        "caption": "Spot the quiet recommendation and find its change control",
+        "source": "revision-2026-11-19/B1-quiet-plan.jpg",
+        "width": 3.21,
+        "crops": [
+          [
+            185,
+            833,
+            724,
+            1015
+          ],
+          [
+            185,
+            1070,
+            724,
+            1306
+          ]
+        ]
+      },
+      {
+        "caption": "Open correction from the explanation and choose collaborative",
+        "source": "revision-2026-11-19/B2-correction-dialog.jpg",
+        "width": 4.45,
+        "crops": [
+          [
+            477,
+            1112,
+            993,
+            1445
+          ]
+        ]
+      },
+      {
+        "caption": "Save and regenerate to see the new recommendation and save notice",
+        "source": "revision-2026-11-19/B3-saved-plan.jpg",
+        "width": 3.21,
+        "crops": [
+          [
+            185,
+            833,
+            724,
+            958
+          ],
+          [
+            165,
+            508,
+            704,
+            561
+          ]
+        ]
+      },
+      {
+        "caption": "Refresh, request again and open current and earlier source statements",
+        "source": "revision-2026-11-19/B4-refresh-history.jpg",
+        "width": 5.3,
+        "crops": [
+          [
+            188,
+            1235,
+            724,
+            1486
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "C",
+    "title": "Choose how to resolve a conflict",
+    "provenance": "Pinned public build · 19 November 2026 · Codex-operated Mac Chrome",
+    "note": "Separate student-operated Scenario C check on 19 November 2026.",
+    "frames": [
+      {
+        "caption": "Request a plan and see the two conflicting notes and available actions",
+        "source": "revision-2026-11-19/C1-held.jpg",
+        "width": 4.65,
+        "crops": [
+          [
+            185,
+            828,
+            724,
+            1190
+          ]
+        ]
+      },
+      {
+        "caption": "Ignore once for generic location advice and a personalised duration",
+        "source": "revision-2026-11-19/C2-ignore.jpg",
+        "width": 3.21,
+        "crops": [
+          [
+            185,
+            833,
+            724,
+            977
+          ],
+          [
+            165,
+            508,
+            704,
+            561
+          ]
+        ]
+      },
+      {
+        "caption": "Request again, see the conflict return and open confirmation",
+        "source": "revision-2026-11-19/C3-confirm-dialog.jpg",
+        "width": 4.45,
+        "crops": [
+          [
+            477,
+            925,
+            993,
+            1279
+          ]
+        ]
+      },
+      {
+        "caption": "Save collaborative and see the regenerated plan and superseded note",
+        "source": "revision-2026-11-19/C4-confirmed.jpg",
+        "width": 3.21,
+        "crops": [
+          [
+            185,
+            833,
+            724,
+            961
+          ],
+          [
+            778,
+            678,
+            1298,
+            806
+          ]
+        ]
+      }
+    ]
+  }
+]

@@ -1,12 +1,12 @@
 # MemoryLens
 
-README prose word count: 549 (headings and link labels included; fenced setup code and this count line excluded).
+README prose word count: 589 (headings and link labels included; fenced setup code and this count line excluded).
 
 ## Status
 
 An explainable study-assistant prototype for the University of Birmingham Intelligent Interactive Systems assignment. It continues the research question in *Explaining Memory Use in Personal AI Assistants*: can source and selection explanations help people recognise and correct inappropriate memory use?
 
-JavaScript rules select structured preferences, explain their actual use and regenerate fixed template plans after correction. All demo notes, source excerpts and browser exports are fictional. The application invokes no LLM, paid API, API key or external service. Version: **1.0.1-local**, a local-browser prototype. The exact assessed version is the Git commit linked from the separately supplied report. No version tag or GitHub Release is claimed.
+JavaScript rules select structured preferences, explain their actual use and regenerate fixed template plans after correction. All demo notes, source excerpts and browser exports are fictional. The application invokes no LLM, paid API, API key or external service. Version: **1.0.1-local**, a local-browser prototype. The assessed application is [commit cd043d657fac96554ac00d38734a6d5d13b0c37b](https://github.com/shuaigedzr/MemoryLens/commit/cd043d657fac96554ac00d38734a6d5d13b0c37b). The later evidence revision updates documentation and captures for the same application. No version tag or GitHub Release is claimed.
 
 Repository: https://github.com/shuaigedzr/MemoryLens  
 README: https://github.com/shuaigedzr/MemoryLens/blob/main/README.md
@@ -48,8 +48,8 @@ Remove immediately excludes a record. One disclosed recovery snapshot supports u
 
 ## Development and AI assistance
 
-[Development record](docs/DEVELOPMENT.md) explains alternatives, the topic-isolation regression and browser-discovered feedback fixes. [AI disclosure](docs/AI_ASSISTANCE.md) separates the student's problem/scenarios and earlier manual checks from ChatGPT/Codex-assisted code, tests, writing and figures. Checks included reference verification, code review, engine tests, actual browser operations and exported state. The application itself runs no model. Student authorship review remains their responsibility.
+[Development record](docs/DEVELOPMENT.md) explains alternatives, the topic-isolation regression and browser-discovered feedback fixes. [AI disclosure](docs/AI_ASSISTANCE.md) separates the student's problem/scenarios and earlier manual checks from ChatGPT/Codex-assisted code, tests, writing and figures. Checks included reference verification, code review, engine tests, actual browser operations and exported state. In a separate 19 November Mac Chrome check, the student personally exercised the conflict, one-request ignore and saved confirmation paths in C. ChatGPT recommended retaining both paths, while noting the burden of repeated prompts. The student’s design judgment remains pending. The revised storyboard screenshots were captured by Codex.
 
 ## Publication and accompanying material
 
-[Publication audit](docs/PUBLICATION_AUDIT.md) records the reviewed standalone snapshot and history boundary. The original local history, source-material inventories, assessment feedback, academic identifiers and identified Word/PDF report are not published. The submission report is supplied privately and links to this code. [Three storyboards](docs/storyboards/) use actual screenshot crops; [rubric audit](docs/ACCEPTANCE.md) maps evidence to the assessment criteria. No Canvas submission is performed by publishing this repository.
+[Publication audit](docs/PUBLICATION_AUDIT.md) records the reviewed standalone snapshot and history boundary. The original local history, source-material inventories, assessment feedback, academic identifiers and identified Word/PDF report are not published. The submission report is supplied privately and links to this code. [Revised storyboards](docs/storyboards/revision-2026-11-19/) use actual screenshot crops; [rubric audit](docs/ACCEPTANCE.md) maps evidence to the assessment criteria. No Canvas submission is performed by publishing this repository.

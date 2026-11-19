@@ -1,0 +1,98 @@
+{
+  "operator": "Codex via Computer Use on Mac Chrome",
+  "commit": "cd043d657fac96554ac00d38734a6d5d13b0c37b",
+  "origin": "http://127.0.0.1:8793/",
+  "fixtureData": "fictional",
+  "notes": [
+    "Scenario B is outdated in the scenario, inside the 30-day rule.",
+    "After reload the preference remained collaborative while the plan had to be requested again.",
+    "After one-time ignore a fresh C request showed the conflict again."
+  ],
+  "captures": [
+    {
+      "id": "B1-quiet-plan",
+      "action": "Load B, request a full study plan",
+      "capturedAt": "2026-11-19T10:44:59.234Z",
+      "assertions": [
+        "/B · Correct/",
+        "/Choose a quiet study space/",
+        "/Change env and update plan/",
+        "/Used in this plan/"
+      ]
+    },
+    {
+      "id": "B2-correction-dialog",
+      "action": "Open correction from the current explanation and select collaborative",
+      "capturedAt": "2026-11-19T10:45:00.592Z",
+      "assertions": [
+        "/Confirm or correct environment/",
+        "/Value: a collaborative space/",
+        "/Save and regenerate/"
+      ]
+    },
+    {
+      "id": "B3-saved-plan",
+      "action": "Save and regenerate without another request",
+      "capturedAt": "2026-11-19T10:45:01.341Z",
+      "assertions": [
+        "/Correction saved in this browser/",
+        "/Choose a collaborative study space/",
+        "/Used in this plan/"
+      ]
+    },
+    {
+      "id": "B4-refresh-history",
+      "action": "Refresh the page, request a new plan, reveal original source",
+      "capturedAt": "2026-11-19T10:45:02.924Z",
+      "assertions": [
+        "/Choose a collaborative study space/",
+        "/Current source · Your explicit correction/",
+        "/Earlier source · Fictional study check-in/",
+        "/I prefer a quiet space/"
+      ]
+    },
+    {
+      "id": "C1-held",
+      "action": "Load C Conflict and request a plan",
+      "capturedAt": "2026-11-19T10:45:22.137Z",
+      "assertions": [
+        "/Two active environment preferences disagree/",
+        "/No personalised plan has been issued/",
+        "/Ignore environment this time/",
+        "/Confirm or correct environment/"
+      ]
+    },
+    {
+      "id": "C2-ignore",
+      "action": "Ignore environment for this request",
+      "capturedAt": "2026-11-19T10:45:23.367Z",
+      "assertions": [
+        "/no stored location preference was applied/",
+        "/Work for 25 minutes/",
+        "/Ignored for this request: environment/",
+        "/notes remain stored/"
+      ]
+    },
+    {
+      "id": "C3-confirm-dialog",
+      "action": "Request again, then open confirmation of collaborative",
+      "capturedAt": "2026-11-19T10:45:24.499Z",
+      "assertions": [
+        "/Value: a collaborative space/",
+        "/supersede 1 other active note/",
+        "/Save and regenerate/"
+      ]
+    },
+    {
+      "id": "C4-confirmed",
+      "action": "Save collaborative and regenerate",
+      "capturedAt": "2026-11-19T10:45:25.288Z",
+      "assertions": [
+        "/Choose a collaborative study space/",
+        "/Work for 25 minutes/",
+        "/Superseded/",
+        "/Correction saved/"
+      ]
+    }
+  ]
+}

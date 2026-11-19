@@ -27,3 +27,11 @@ All application bytes are checked against the final test hashes. The current sui
 A database could improve transactions and multi-device access, but adds setup beyond this single-browser demonstration. Newest-wins conflict resolution was rejected because recency does not establish truth. One disclosed recovery copy supports error recovery; clearing it erases app-held removed content, while exports cannot be recalled. Content-free events reduce retained personal text but cannot reconstruct historical full recommendations. No Chrome-restart durability, comprehensive assistive-technology compatibility or atomic simultaneous-write guarantee is claimed.
 
 The student must review and be able to explain the design and AI assistance. Publication does not authorise Canvas submission, payments or changes to any other project.
+
+## 19 November 2026 Scenario C check
+
+The student personally checked Scenario C in Mac Chrome. The conflict held the personalised plan. Ignoring environment for one request produced generic location advice, kept the 25-minute duration and left the environment memories stored. On a new request the student confirmed collaborative and saved. The recommendation updated, and the interface displayed the confirmation time and Undo.
+
+ChatGPT recommended retaining both paths for user control, error recovery and clear consequences, with possible friction from repeated confirmation. The student’s design judgment is pending. The separate storyboard captures were operated by Codex.
+
+[Revised storyboards](storyboards/revision-2026-11-19/) include capture provenance.

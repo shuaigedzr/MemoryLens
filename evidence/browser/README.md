@@ -12,3 +12,7 @@ All images here are genuine Chrome screenshots captured through Computer Use on 
 - `D-export.json`: baseline real browser export after correction/removal/undo. `Final-D-export.json`: final browser export after recovery clearing. Both are fictional data and can be inspected with engine.validate.
 
 The report's three sequences and exact crop rectangles are in docs/storyboards/storyboards.json. Cropping changes framing only; it does not change the interface content. Screenshots establish observed states, actions.json records final operations, and exported JSON checks stored data. No screenshot alone is treated as proof of a refresh action or long-term durability.
+
+## 19 November 2026 revised capture set
+
+The [revised storyboards](../../docs/storyboards/revision-2026-11-19/) pair final 17 November A captures with the new B and C captures. Codex captured B and C in Mac Chrome from application commit `cd043d657fac96554ac00d38734a6d5d13b0c37b`; the [capture log](revision-2026-11-19/capture-log.json) records the actions. The [development record](../../docs/DEVELOPMENT.md#19-november-2026-scenario-c-check) describes a separate student-operated C check. All demo data are fictional.

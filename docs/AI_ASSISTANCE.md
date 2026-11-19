@@ -6,4 +6,12 @@ The student supplied the problem, A1 research question, scenarios and boundaries
 
 Review changed an unrelated-topic supersession rule and added a regression test. Browser inspection led to more accurate success messages and a synchronised scenario selector, followed by a final walkthrough. Downloaded JSON checked the decision-event and deletion/recovery claims. Primary sources checked report citations; rendered pages checked layout. Publication review removed identifying academic material and private source inventories from the public snapshot and excluded the original local history.
 
-Student acceptance of proposed technical choices, personal authorship review and understanding cannot be certified by the agent. Canvas submission remains subject to separate final confirmation.
+The student’s own design judgment and Canvas submission are subject to separate confirmation.
+
+## 19 November 2026 Scenario C check
+
+The student personally checked Scenario C in Mac Chrome. The conflict held the personalised plan. Ignoring environment for one request produced generic location advice, kept the 25-minute duration and left the environment memories stored. On a new request the student confirmed collaborative and saved. The recommendation updated, and the interface displayed the confirmation time and Undo.
+
+ChatGPT recommended retaining both paths for user control, error recovery and clear consequences, with possible friction from repeated confirmation. The student’s design judgment is pending. The separate storyboard captures were operated by Codex.
+
+[Revised storyboards](storyboards/revision-2026-11-19/) include capture provenance.

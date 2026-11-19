@@ -1,0 +1,31 @@
+✔ A: only relevant study records influence the plan; trace identifies excluded topic (6.702917ms)
+✔ Task change selects a different subset with explicit exclusion (0.131833ms)
+✔ B: recent but wrong preference is correctable, source history retained, reload survives (0.385583ms)
+✔ Persistent undo restores corrected value and former source, not only visible text (0.156542ms)
+✔ C: conflicting values block output even when one is newer (0.33175ms)
+✔ Conflict correction supersedes other active value, regeneration and undo are coherent (0.168334ms)
+✔ C: stale record requires review; confirmation leaves original timestamp honest (0.398ms)
+✔ C: missing source cannot be presented as current evidence (0.06625ms)
+✔ An inferred source also requires confirmation (0.051125ms)
+✔ Ignore is request-scoped, persists no changed preference, and gives a generic fallback (0.138ms)
+✔ Cancel records the action without changing memories (0.08175ms)
+✔ Removal excludes record, survives reload and remains recoverable until copy cleared (0.171542ms)
+✔ Clear recovery removes every deleted source/content copy in app state; logs have no copies (0.099084ms)
+✔ Adding absent preference is explicit; other topic is not superseded (0.121166ms)
+✔ Correcting an unrelated record cannot supersede study preferences (0.102125ms)
+✔ 30-day boundary is inclusive; future evidence is held (0.036958ms)
+✔ Duplicate equal values use newest record; equal timestamps break by ID deterministically (12.132583ms)
+✔ Invalid edit and unsupported task are refused without state writes (0.11425ms)
+✔ Quota failure does not mutate state or claim persisted success (0.086833ms)
+✔ Storage read failure is explicit (0.044708ms)
+✔ Corrupt JSON, schema mismatch and malformed records are not overwritten on load (0.073667ms)
+✔ Two loaded tabs cannot overwrite each other, including a log-only write (0.161958ms)
+✔ Audit is bounded and contains IDs/statuses, not source excerpts or generated plans (9.298875ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 74.021542
